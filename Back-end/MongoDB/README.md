@@ -33,5 +33,5 @@ db.dropUser('your-username')
 ## Get all the rows of a collection (table)
 ```
 db.your-collection-name.find().pretty()
-```
 Example: db.location.find().pretty()
+```
