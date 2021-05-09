@@ -26,11 +26,11 @@
     2. `db.createUser({user:'your-username',pwd:'your-password',roles:[{role:'readWrite',db:'your-database-name'}]})`
 8. Log in MongoDB with this user:`mongo 127.0.0.1/your-database-name -u your-username -p`
 
-### Drop a user:
+## Drop a user:
 ```
 db.dropUser('your-username')
 ```
-### Get all the rows of a collection (table)
+## Get all the rows of a collection (table)
 ```
 db.your-collection-name.find().pretty()
 ```
