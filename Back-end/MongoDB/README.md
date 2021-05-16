@@ -35,3 +35,7 @@ db.dropUser('your-username')
 db.your-collection-name.find().pretty()
 Example: db.location.find().pretty()
 ```
+## List users of the current database
+```
+show users
+```
