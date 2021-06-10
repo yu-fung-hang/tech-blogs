@@ -41,3 +41,9 @@ GRANT CONNECT,RESOURCE,DBA TO your-username;
 alter session set "_oracle_script" = true;
 drop user your-username CASCADE;
 ``````
+
+## Scenario 3: Get all tablespaces
+
+``````sql
+select * from v$tablespace;
+``````
