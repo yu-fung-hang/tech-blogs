@@ -1,13 +1,12 @@
 # Redis Commands
 
-## Password
+## Scenario 1: Set password
 
-Set password:
-```
-config set requirepass your-password
-```
+No password is required to sign in Redis by default. It is necessary to set one to ensure security.
 
-Sign in with password:
+1. Modify `/your-redis-directory/redis.windows.conf`: remove `#` in `#requirepass foobared` and replace your new password with `foobared`.
+
+2. Open CMD, `cd your-redis-directory` and execute the following command:
 ```
-auth your-password
+redis-server.exe redis.windows.conf
 ```
