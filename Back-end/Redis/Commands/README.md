@@ -11,7 +11,7 @@ No password is required to sign in Redis by default. It is necessary to set one 
 redis-server.exe redis.windows.conf
 ```
 
-3. Access redis-cli.exe with password:
+3. Sign in redis-cli.exe:
 ```
 auth your-password
 ```
