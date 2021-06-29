@@ -21,3 +21,12 @@ show variables like 'autocommit';
 ```mysql
 SET AUTOCOMMIT = 0;
 ```
+
+## Scenario 3: Perform a multiple-statement transaction
+Here is an example:
+```mysql
+BEGIN; 
+SELECT * FROM stock WHERE id=1 FOR UPDATE;
+UPDATE stock SET name = 'AAA' WHERE id=1;
+COMMIT; 
+```
