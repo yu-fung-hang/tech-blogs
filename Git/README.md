@@ -33,7 +33,7 @@ fi
 ' --tag-name-filter cat -- --branches --tags
 ```
 
-3. Run this shell script in CMD.
+3. Run this shell script in `Git Bash`.
 ```
 ./email.sh
 ```
