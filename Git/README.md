@@ -4,7 +4,7 @@
 
 Your GitHub's username and email have been updated, but they have not been updated in your local Git.
 
-1. Update your username and email
+1. Update your username and email (run the following commands in `IntelliJ Terminal`).
 ```git
 git config user.name 'your-username'
 git config user.email 'your-email'
@@ -38,7 +38,7 @@ fi
 ./email.sh
 ```
 
-4. Push commits to remote.
+4. Push commits to remote (run the following command in `IntelliJ Terminal`).
 ```git
 git push origin --force --all
 ```
