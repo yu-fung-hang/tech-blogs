@@ -8,4 +8,4 @@ Redis uses the same Lua interpreter to run all the commands. Also Redis guarante
 
 However this also means that executing slow scripts is not a good idea. It is not hard to create fast scripts, as the script overhead is very low, but if you are going to use slow scripts you should be aware that while the script is running no other client can execute commands.
 
-Reference: https://redis.io/commands/eval
+Reference: https://redis.io/commands/eval#atomicity-of-scripts
