@@ -47,3 +47,11 @@ drop user your-username CASCADE;
 ``````sql
 select * from v$tablespace;
 ``````
+
+## Scenario 4: ORA-28001: the password has expired
+
+``````sql
+ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
+alter user your-username identified by your-password account unlock;
+commit;
+``````
