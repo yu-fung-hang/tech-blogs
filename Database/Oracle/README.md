@@ -55,3 +55,5 @@ ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
 alter user your-username identified by your-password account unlock;
 commit;
 ``````
+
+## Scenario 5
