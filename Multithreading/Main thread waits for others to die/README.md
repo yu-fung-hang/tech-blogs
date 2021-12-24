@@ -170,5 +170,4 @@ Tour guide: Alright, everyone is here. You can go wherever you want now!
 Cathy: Cool!
 Alex: Cool!
 Bob: Cool!
-
 ``````
