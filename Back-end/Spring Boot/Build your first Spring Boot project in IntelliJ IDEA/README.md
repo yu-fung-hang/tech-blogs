@@ -42,6 +42,6 @@
     }
     ```
 
-9. Run `DemoApplication`, and enter `http://localhost:8080/demo` in a browser. Your first Spring Boot project should run successfully!   
+9. Run `DemoApplication`, and enter http://localhost:8080/demo in a browser. Your first Spring Boot project should run successfully!   
    
     ![](images/step9.png)
