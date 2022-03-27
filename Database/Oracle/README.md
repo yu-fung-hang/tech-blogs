@@ -56,4 +56,6 @@ alter user your-username identified by "your-password" account unlock;
 commit;
 ``````
 
-## Scenario 5
+## Scenario 5: Configure Oracle Database
+
+Enter `dbca` on cmd.
