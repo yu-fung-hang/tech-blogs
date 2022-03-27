@@ -25,7 +25,7 @@ EXTENT MANAGEMENT LOCAL;
 ```sql
 alter session set "_ORACLE_SCRIPT" = true;  
 
-CREATE USER your-username IDENTIFIED BY your-password
+CREATE USER your-username IDENTIFIED BY "your-password"
 ACCOUNT UNLOCK
 DEFAULT TABLESPACE DB_DATA01
 TEMPORARY TABLESPACE DB_TEMP01;
@@ -52,7 +52,7 @@ select * from v$tablespace;
 
 ``````sql
 ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
-alter user your-username identified by your-password account unlock;
+alter user your-username identified by "your-password" account unlock;
 commit;
 ``````
 
