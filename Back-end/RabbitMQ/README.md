@@ -1,3 +1,3 @@
 # RabbitMQ
 
-* Default URL: http://localhost:15672/#/
+* Default RabbitMQ Management URL: http://localhost:15672/#/
