@@ -8,4 +8,4 @@
 
 ## Maven is NOT working
 
-`File`->`Invalidate Caches`
+`File` -> `Invalidate Caches`
