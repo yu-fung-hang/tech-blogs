@@ -23,3 +23,8 @@ You have pushed commits to the remote branch but now you want to return back to 
 
 1. `git checkout -b new-branch-name`: create a new local branch.
 2. `git push origin new-branch-name`: push this branch to remote.
+
+## Scenario 4: Ignore files in .idea directory
+
+1. `git rm -r --cached .idea`: disable the change tracking of the files in .idea directory.
+2. Create a **.gitignore** file in your project's root directory with the following content: `.idea/`
