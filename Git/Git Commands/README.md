@@ -29,7 +29,7 @@ You have pushed commits to the remote branch but now you want to return back to 
 1. `git rm -r --cached .idea`: disable the change tracking of the files in .idea directory.
 2. Create a **.gitignore** file in your project's root directory with the following content: `.idea/`
 
-## Scenario 5: Overlap A branch from B
+## Scenario 5: Overlap branch A from B
 
 1. `git checkout A`;
 2. `git reset --hard B`;
