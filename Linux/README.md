@@ -41,3 +41,17 @@ Example:
 ```
 nohup java -jar ./your-jar-name.jar --server.port=your-port &
 ```
+
+## Scenario 6: read a .out file
+
+* Execute `tail -f filename.out` if you want to read the live data;
+
+* Execute `tail -n 500 filename.out` if you want to read the last 500 lines of the .out file.
+
+## Scenario 7: open firewall ports
+
+* Execute `sudo firewall-cmd --add-port=8056/tcp --permanent` if you want to open a firewall port;
+
+* Execute `firewall-cmd --permanent --add-port 60000-61000/tcp` if you want to open a range of ports.
+
+Don't forget to reload the firewall: `sudo firewall-cmd --reload`
