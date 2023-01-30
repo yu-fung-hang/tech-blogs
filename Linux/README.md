@@ -55,3 +55,9 @@ nohup java -jar ./your-jar-name.jar --server.port=your-port &
 * Execute `firewall-cmd --permanent --add-port 60000-61000/tcp` if you want to open a range of ports.
 
 Don't forget to reload the firewall: `sudo firewall-cmd --reload`
+
+## Scenario 8: access another server in a server
+
+```
+ssh target-username@target-server-host
+```
