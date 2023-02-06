@@ -16,4 +16,5 @@ public class IPController
 ```
 
 **Url**: http://your-host:8080/ip
+
 **Http method**: GET
