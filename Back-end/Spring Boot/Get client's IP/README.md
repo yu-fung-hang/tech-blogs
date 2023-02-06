@@ -14,3 +14,6 @@ public class IPController
    { return request.getRemoteAddr(); }
 }
 ```
+
+**Url**: http://your-host:8080/ip
+**Http method**: GET
