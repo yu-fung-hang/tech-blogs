@@ -26,6 +26,6 @@ docker exec -it your-container-id bash
 ```
 
 ## Scenario 5: export & import as an image
-**export**: `docker export your-container-id > a-name.tar`;
+**export**: `docker export your-container-id > your-tar-name.tar`;
 
-**import**: `cat a-name.tar | docker import - a-username/a-image-name:a-version-number`
+**import as an image**: `cat your-tar-name.tar | docker import - a-username/your-image-name:your-tag`
