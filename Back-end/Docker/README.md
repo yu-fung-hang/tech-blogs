@@ -21,9 +21,11 @@ There are two ways of exiting a container:
 2. exit without stopping the container: `ctrl+q+p`.
 
 ## Scenario 4: re-enter a container
-
-Take Ubuntu as an example:
-
 ```
 docker exec -it your-container-id bash
 ```
+
+## Scenario 5: export & import as an image
+**export**: `docker export your-container-id > a-name.tar`;
+
+**import**: `cat a-name.tar | docker import - a-username/a-image-name:a-version-number`
