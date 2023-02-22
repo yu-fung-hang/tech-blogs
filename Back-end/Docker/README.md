@@ -29,3 +29,8 @@ docker exec -it your-container-id bash
 **export**: `docker export your-container-id > your-tar-name.tar`;
 
 **import as an image**: `cat your-tar-name.tar | docker import - a-username/your-image-name:your-tag`
+
+## Scenario 6: commit an image
+```
+docker commit -m="your commit message" -a="author name" your-container-id your-package-name/your-new-image-name:your-tag
+```
