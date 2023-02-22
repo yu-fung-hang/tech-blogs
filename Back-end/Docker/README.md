@@ -18,4 +18,4 @@ docker ps
 
 There are two ways of exiting a container:
 1. exit and stop the container: enter `exit`;
-2. exit without stopping the container: `ctrl+q+p`.
+2. exit without stopping the container: `ctrl+p+q`.
