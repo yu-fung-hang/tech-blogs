@@ -28,3 +28,8 @@ default_character_set=utf8
 collation_server = utf8_general_ci
 character_set_server = utf8
 ```
+
+4. Restart MySQL
+```
+docker restart mysql
+```
