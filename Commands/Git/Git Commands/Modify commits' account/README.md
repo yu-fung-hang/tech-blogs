@@ -1,6 +1,4 @@
-# Git
-
-## Scenario 1: Change username and email
+# Modify commits' account
 
 Your GitHub's username and email have been updated, but they have not been updated in your local Git.
 
