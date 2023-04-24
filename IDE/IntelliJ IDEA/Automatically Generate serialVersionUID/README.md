@@ -1,4 +1,4 @@
-# Automatically Generate serialVersionUID in IntelliJ IDEA
+# Automatically Generate serialVersionUID
 
 1. File --> Settings --> Editor --> Inspections --> Java --> Serialization issues --> Serializable class without 'serialVersionUID'.   
 
