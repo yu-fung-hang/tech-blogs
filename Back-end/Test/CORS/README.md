@@ -6,7 +6,7 @@
 
     ```javascript
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://127.0.0.1:8080/posts/2');
+    xhr.open('GET', 'http://127.0.0.1:8080/demo');
     xhr.send(null);
     xhr.onload = function(e) {
         var xhr = e.target;
