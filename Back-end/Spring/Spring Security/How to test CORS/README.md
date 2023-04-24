@@ -1,4 +1,4 @@
-# Cross-origin resource sharing
+# How to test CORS
 
 1. Open `Google Chrome`, right click and choose `Inspect`;
 
