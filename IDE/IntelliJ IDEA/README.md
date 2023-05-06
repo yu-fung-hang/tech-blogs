@@ -9,3 +9,7 @@
 ## Maven is NOT working
 
 `File` -> `Invalidate Caches`
+
+## Skip interface, go to implementation directly
+
+`Ctrl`+`Alt`, and click the method
