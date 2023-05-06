@@ -57,3 +57,13 @@ an extension for supplementary characters.
 **utf16le**: The UTF-16LE encoding for the Unicode character set. Like utf16 but little-endian rather than big-endian.
 
 **utf32**: The UTF-32 encoding for the Unicode character set using four bytes per character.
+
+## Scenario 5: Select Collation
+
+A collation is a set of rules that defines how to compare and sort character strings.
+
+**ci**: case-insensitive
+
+**cs**: case-sensitive
+
+**utf8mb4_bin**: case-sensitive as it compares the binary values of the character
