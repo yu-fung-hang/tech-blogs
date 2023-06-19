@@ -7,3 +7,15 @@
 ### Uneven allocation: channel.basicQos(1);
 
 No task would be assigned to this channel when it is busy.
+
+## ExchangeTypes
+
+* **DIRECT**: 
+
+* **TOPIC**: 
+
+* **FANOUT**:
+
+* **HEADERS**:
+
+* **SYSTEM**:
