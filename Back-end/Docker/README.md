@@ -34,3 +34,8 @@ docker exec -it your-container-id bash
 ```
 docker commit -m="your commit message" -a="author name" your-container-id your-package-name/your-new-image-name:your-tag
 ```
+
+## Scenario 7: save logs
+```
+docker logs containername >& logs/myFile.log
+```
