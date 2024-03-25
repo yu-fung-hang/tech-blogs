@@ -35,11 +35,11 @@ You have pushed commits to the remote branch but now you want to return back to 
 2. `git reset --hard B`;
 3. `git push A --force`;
 
-## Scenario 6: rebase branch1 onto branch2
+## Scenario 6: Rebase branch1 onto branch2
 
 It does an automatic checkout of `branch1`, and then modifies the commits in `branch1`. `branch2` remains unchanged.
 
-## Scenario 7: set remote origin
+## Scenario 7: Set remote origin
 
 ```
 git remote set-url origin project-url
