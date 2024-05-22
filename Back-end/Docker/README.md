@@ -39,3 +39,8 @@ docker commit -m="your commit message" -a="author name" your-container-id your-p
 ```
 docker logs containername >& logs/myFile.log
 ```
+
+## Scenario 8: restart
+```
+systemctl start docker
+```
