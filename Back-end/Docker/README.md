@@ -14,6 +14,11 @@ docker run -it --name=a-name ubuntu bash
 docker ps
 ```
 
+show all containers
+```
+docker ps -a
+```
+
 ## Scenario 3: exit
 
 There are two ways of exiting a container:
