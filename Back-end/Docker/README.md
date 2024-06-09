@@ -14,6 +14,11 @@ docker run -it --name=a-name ubuntu bash
 docker ps
 ```
 
+show all containers
+```
+docker ps -a
+```
+
 ## Scenario 3: exit
 
 There are two ways of exiting a container:
@@ -38,4 +43,9 @@ docker commit -m="your commit message" -a="author name" your-container-id your-p
 ## Scenario 7: save logs
 ```
 docker logs containername >& logs/myFile.log
+```
+
+## Scenario 8: restart
+```
+systemctl start docker
 ```
