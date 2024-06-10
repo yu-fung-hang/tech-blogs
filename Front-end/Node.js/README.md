@@ -4,7 +4,7 @@
 `npm i -g nodemon`
 
 ### express demo
-1. execute `npm init` on Terminal;
+1. execute `npm init --yes` on Terminal;
 
 2. execute `npm i express` on Terminal;
 
