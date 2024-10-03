@@ -50,6 +50,8 @@ nohup java -jar ./your-jar-name.jar --server.port=your-port &
 
 ## Scenario 7: open firewall ports
 
+* Check whether a port has been opened: `firewall-cmd --query-port=9200/tcp`;
+
 * Execute `sudo firewall-cmd --add-port=8056/tcp --permanent` if you want to open a firewall port;
 
 * Execute `firewall-cmd --permanent --add-port 60000-61000/tcp` if you want to open a range of ports.
