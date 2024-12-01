@@ -5,3 +5,9 @@
 ```
 modprobe br_netfilter
 ```
+
+## Check Kubelet log
+
+```
+journalctl -xefu kubelet
+```
