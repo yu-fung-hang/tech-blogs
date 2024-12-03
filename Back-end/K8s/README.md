@@ -11,3 +11,9 @@ modprobe br_netfilter
 ```
 journalctl -xefu kubelet
 ```
+
+## Get nodes' info
+
+```
+kubectl get nodes
+```
