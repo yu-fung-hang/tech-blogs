@@ -17,3 +17,9 @@ journalctl -xefu kubelet
 ```
 kubectl get nodes
 ```
+
+## Get pod's log
+
+```
+kubectl describe pod your-pod-name
+```
