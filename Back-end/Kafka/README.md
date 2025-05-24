@@ -1,5 +1,34 @@
 # Kafka
 
+## How to start
+
+```
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+```
+
+## Test Kafka
+
+1. Create a topic:
+```
+bin/kafka-topics.sh --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+```
+
+2. List topics:
+```
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
+3. Start a producer:
+```
+bin/kafka-console-producer.sh --topic test --bootstrap-server localhost:9092
+```
+
+4. Start a consumer in another terminal:
+```
+bin/kafka-console-consumer.sh --topic test --from-beginning --bootstrap-server localhost:9092
+```
+
 ## Commands
 
 ### Topics
